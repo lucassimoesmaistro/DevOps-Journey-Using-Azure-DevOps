@@ -11,4 +11,5 @@ az ad group member add --group $AZURE_AD_GROUP_NAME --member-id $CURRENT_USER_OB
 
 AZURE_GROUP_ID=$(az ad group show --group "devopsjourney-aks-group" --query objectId -o tsv)
 
+# objectId deve ser colocado no arquivo labs\2-AzureDevOps-Terraform-Pipeline\terraform\modules\aks\variables.tf
 echo "AZURE AD GROUP ID IS: $AZURE_GROUP_ID"

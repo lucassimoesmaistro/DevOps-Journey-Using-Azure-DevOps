@@ -29,7 +29,7 @@ variable "kubernetes_cluster_rbac_enabled" {
 }
 
 variable "aks_admins_group_object_id" {
-  default = "e97b6454-3fa1-499e-8e5c-5d631e9ca4d1"
+  default = "f99681da-0340-4d58-af66-86dd6afc1eb2"
 }
 
 variable "addons" {
